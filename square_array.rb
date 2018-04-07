@@ -1,6 +1,7 @@
 def square_array(array)
+  var newarray = []
   array.each do |i|
-    var newarray = i * i
+    newarray.push(i * i)
   end
   return newarray
 end
