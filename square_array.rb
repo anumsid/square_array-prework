@@ -1,5 +1,5 @@
 def square_array(array)
-  var newarray = []
+  newarray = []
   array.each do |i|
     newarray << i * i
   end
